@@ -1,0 +1,300 @@
+/* Navbar styling */
+body{
+    background-color:black;
+    width: 100%;
+    height: 100%;
+   /*line-height:1.5;*/
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: #333;
+}
+div.header a{
+    display: flex;
+    justify-items: right;
+    text-decoration: none;
+}
+#home{
+    width: 100%;
+    height: 600px;
+}
+#home h1{
+    text-align: center;
+    
+}
+
+#home p{
+    font-size: large;
+}
+.betty{
+    padding-top: 50px;
+    padding-left: 80px;
+}
+.navbar {
+    background-color: #333; /* Change to your desired color */
+    
+}
+#contact{
+    width: 100%;
+    height: 500px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color:black;
+    font-size: 16px;
+    margin-right: 20px;
+    font-weight: 200;
+}
+section{
+    color: #f9f9f9;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Change to your desired hover color */
+}
+.portifolio h2{
+    text-align: center;
+    font-size: 40px;
+}
+.portifolio h2:hover{
+  color: darkred;
+}
+.portifolio h3{
+    font-size: 30px;
+    color: lightcyan;
+    padding-left:80px ;
+}
+/*.portifolio h4{
+    font-size: 20px;
+    color: aqua;
+    padding-left:80pxpx ;*/
+
+.project1 img{
+    padding-left: 500px;
+    padding-right: 0%;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+.portifolio h4 p{
+    font-size: 100px;
+    padding-left: 80px;
+    color: ghostwhite;
+
+}
+.project2 img{
+    padding-left: 500px;
+    padding-right: 0%;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+#about {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 94%;
+    height: 800px;
+}
+.aboutme{
+    padding-top: 100px;
+    padding-left: 80px;
+    float: right;
+}
+.aboutme b{
+    color: cyan;
+    font-size: larger;
+}
+.aboutme img{
+    padding-left:500px;
+    padding-right: 0%;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    float:right;
+}
+#about h2 {
+    
+color: white;
+align-items:center;
+text-align:justify;
+font-size: 200px;
+padding-top: 0%;
+}
+#about h2:hover {
+    font-size: 28px;
+    color:darkred;
+}
+#about p {
+    font-size: 16px;
+    color: black;
+    line-height: 1.6;
+}
+
+#about {
+    background-color:aquamarine;
+    padding: 40px;
+    background-image:url(c:\Users\Admin\Downloads\pexels-photo-5496463.webp);
+}
+
+#about h2 {
+    font-size: 28px;
+    color:white;
+}
+.about.max{
+    color: black;
+}
+
+
+.container h2{
+    text-align: center;
+}
+/*.collapse ul{
+   display: flex;
+   list-style: none;
+   text-align: right;
+   color: darkred;
+}
+.collapse li{
+    justify-items: right;
+ }
+.collapse li a{
+    text-decoration: none;
+ }*/
+
+.navbar ul{
+
+    background-color:aqua;
+    font-style: italic;
+    justify-items: right;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+}
+
+.header-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 100vh;
+    background-color: #f9f9f9;
+  }
+  .header-content .left-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .header-content .left-header .h-shape {
+    transition: all 0.4s ease-in-out;
+    width: 65%;
+    height: 100%;
+    background-color: var(--color-secondary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    -webkit-clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+            clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+  }
+  .header-content .left-header .image {
+    border-radius: var(--br-sm-2);
+    height: 90%;
+    width: 68%;
+    margin-left: 4rem;
+    background-color: var(--color-black);
+    transition: all 0.4s ease-in-out;
+  }
+  .header-content .left-header .image img {
+    width: 100%;
+    height: 90%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    transition: all 0.4s ease-in-out;
+    filter: grayscale(100%);
+  }
+  .header-content .left-header .image img:hover {
+    filter: grayscale(0);
+  }
+  .header-content .right-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 18rem;
+    color:blue;
+  }
+  .header-content .right-header .name {
+    font-size: 3rem;
+  }
+  .header-content .right-header .name span {
+    color: var(--color-secondary);
+  }
+  .header-content .right-header p {
+    margin: 1.5rem 0;
+    line-height: 2rem;
+  }
+  .nav-item{
+    float: left;
+    list-style: none;
+    padding: 30px;
+    text-align: right;
+    align-items: normal;
+  }
+
+/*footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+*/
+.footer {
+    background-color: var(--second-color);
+    color: #fff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 2rem 0;
+  }
+  .footer__title {
+    font-size: 2rem;
+    margin-bottom: var(--mb-4);
+  }
+  .footer__social {
+    margin-bottom: var(--mb-4);
+  }
+  .footer__icon {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 var(--mb-2);
+  }
+  .footer__copy {
+    font-size: var(--smaller-font-size);
+  }
+  
+
+  

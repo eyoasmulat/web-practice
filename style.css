@@ -1,0 +1,16 @@
+*{
+    background-color: darkolivegreen;
+}
+.header{
+    background-color: indianred;
+    width: 0%;
+    height: 0%;
+}
+   .navbar-nav{
+        color: black;
+        list-style: none;
+        position: relative;
+        text-align: right;
+        background-color: aqua;
+        
+    }

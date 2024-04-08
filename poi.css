@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+    width: 100%;
+    border-top: 0PX;
+     
+ 
+ .navbar-list{
+        text-align: right;
+        font-style: normal;
+        margin: ;
+        align-items: baseline;
+        font-size: 10px;
+        letter-spacing: 2px;
+        position:fixed;
+        background-color: rgb(207, 19, 57);
+          
+    }
+    
+    .betty{
+        font-size: 35px;
+        color: fuchsia;
+    }
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin: 10px 20px;
+}
+nav ul li a:hover{
+    color:white;
+}
+.image img{
+    width: 1000px;
+    height: 800px;
+    
+    
+}
+div.don{
+    color: cornsilk;
+    padding-left:0%;
+    padding-top:0%;
+    padding-bottom:0%;
+    padding-right: 0%;
+    text-decoration: solid ;
+    text-size-adjust: 20px;
+    font-size: large;
+}
+.elias h1{
+    font-size:100px;
+    text-align: center;
+}
+.home h2:hover{
+   color: chartreuse;
+  
+}
+.home h2{
+   font-size: 50px;
+   text-align: center;
+  
+}
+.about h3:hover{
+   color: chartreuse;
+   
+}
+.about h3{
+ font-size: 50px;
+ text-align: center;
+   
+}
+.about{
+    background-color: blue;
+}
+.about pre{
+  text-align: justify;
+  
+}
+.contact h4:hover{
+   color: chartreuse;
+   
+}
+
+.service h5:hover{
+    color: chartreuse;
+   
+}
+.service h5{
+   font-size: 50px;
+   text-align: center;
+   
+}
+
+ 
+ .service_c h6{
+    font-size: 30px;
+ }
+ .service_c h7{
+    font-size: 30px;
+ }
+ .service_c h8{
+    font-size: 30px;
+ }
+ .footer .section-3{
+  display: flex;
+flex-direction: column;
+gap: 30px;
+position: absolute;
+left: 10px;
+top: 30%;
+}
+.footer .section-3 a i{
+font-size: 25px;
+cursor: pointer;
+color: #7c8bd1;
+transition: 0.3s;
+}
+.footer .section-3 i:hover{
+color: #6f34fe;
+}
+/*.cont{
+    display:flex;
+    flex-direction: column;
+    width:800px;
+    padding:15px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+
+}*/
+input{
+    margin:5px 0px;
+    height:35px;
+    background-color: coral;
+}
+input:hover{
+    background-color: green;
+}
+textarea{
+    background-color: yellow;
+}
+.anchor{
+    color: magenta;
+}
+
+
+
